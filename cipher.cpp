@@ -9,7 +9,7 @@ int main(){
     int N;
     cout << "Enter shift +/- 26 : ";
     cin >> N;
-    cout << "Enter message without space (A - Z) : " ;
+    cout << "Enter message without space (A - Z) : " ; // only works with cap letters because of 65 to 90
     cin >> S;
 
     char C[S.size() + 1];
