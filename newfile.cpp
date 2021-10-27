@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main() {
@@ -12,6 +14,8 @@ int main() {
      char letter = 'f';
      string word = "funtime";
      string words[2] = {"fun", "Time"};
+     string S = "size";
+     cout << S.size(); 
 
      cout << words[0] + "\n" + word + "\n";
 } 
