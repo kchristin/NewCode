@@ -8,7 +8,7 @@ int main(){
     int N;
     cout << "Enter shift +/- 26 : ";
     cin >> N;
-    cout << "Enter plain one word message (A-Z and a-z only) : " ;
+    cout << "Enter message without space (A-Z and a-z only) : " ;
     cin >> S;
 
     char C[S.size() + 1];
