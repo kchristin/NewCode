@@ -16,6 +16,6 @@ int main() {
      string words[2] = {"fun", "Time"};
      string S = "size";
      cout << S.size(); // gives the length of string
-
+      
      cout << words[0] + "\n" + word + "\n";
 } 
