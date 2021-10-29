@@ -20,20 +20,17 @@ int main()
 {
     srand(time(0));
 
-    // Set up an array of characters
     char arr[N];
     for (int i=0; i<N; ++i) {
         arr[i] = generate_random_char();
     }
 
-    // Printing the contents of the input array
     cout << "Input array:" << endl;
     for (int i=0; i<N; ++i) {
         cout << arr[i];
     }
     cout << endl;
 
-    // TO DO 
     int num = 0;
     cout << "counts:" << endl;
     for (int j = 65; j <= 90; j++) {
