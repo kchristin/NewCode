@@ -1,6 +1,5 @@
 //Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -26,7 +25,9 @@ for (int i = 0; i < S; i++){
         N[i] = N[i-2]; // Check if the last number is zero and switch them if it is.
     }
 }
+cout << "output : " ;
 for (int i = 0; i < S; i++) {
-cout << N[i] << endl; } // display the modifed numbers
-
+cout << N[i] ;// display the modifed numbers
+ } 
+cout << endl;
 }
