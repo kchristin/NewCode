@@ -8,11 +8,24 @@ using namespace std;
 
 int main(){
 
-    int i = 0;
+    int k;
     int N[] = {};
+    cout << "Input integer number ";
+    cin >> k;
     cout << "Input : digits = " ;
-    cin >> N[i]; i ++;
-    cout << N[0] << endl;
-
-
+    for (int i = 0; i < k; i++){
+    cin >> N[i];
+    cout << endl;
+    }
+    for (int i = 1; i <= k; i++){
+        if(N[(k -i)] < 9){
+            N[k] = N[k] +1;
+            break;
+    }
+    cout << "Output : digits = " ;
+    for (int i = 0; i < k; i++){
+        cout << N[i] << " ";
+    }
+    cout << endl;
+    }
 }
