@@ -22,5 +22,7 @@ int main(){
     for (int i = 0; i< 3; i++){
         cout << list2[i];
     }
+    int list3[] = {};
+    
 
 }
