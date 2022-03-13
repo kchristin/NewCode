@@ -3,7 +3,6 @@
 // Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
 
 #include <iostream>
-
 using namespace std;
 
 int main(){ 
@@ -22,7 +21,12 @@ int main(){
     for (int i = 0; i< 3; i++){
         cout << list2[i];
     }
-    int list3[] = {};
+    int list3[6] = {};
     
+    for (int i = 0; i< 3; i++){
+        cin >> list3[i];
 
+    for (int i = 3; i< 6; i++){
+        cin >> list1[i];
+    
 }
