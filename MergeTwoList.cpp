@@ -13,7 +13,7 @@ int main(){
     }
     int list2[3] = {};
     for (int i = 0; i< 3; i++){
-        cin >> list1[i];
+        cin >> list2[i];
     }
     for (int i = 0; i< 3; i++){
         cout << list1[i];
@@ -27,6 +27,6 @@ int main(){
         cin >> list3[i];
 
     for (int i = 3; i< 6; i++){
-        cin >> list1[i];
+        cin >> list3[i];
     
 }
