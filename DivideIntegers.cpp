@@ -13,4 +13,8 @@ int main(){
     int Dis;
     cout <<"Enter the Divisor" << endl;
     cin >> Dis;
-}
+
+    cout <<"Divident = " << Div << "Divisor = " << Dis <<endl;
+    int n = Div / Dis;
+    cout << "The Answer is " << n << endl;
+} 
