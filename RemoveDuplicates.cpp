@@ -18,5 +18,6 @@ int main(){
     }
     
     sortString(s);
+    cout <<"The new String is" << s << endl;
     return 0;
 }
