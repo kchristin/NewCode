@@ -14,5 +14,17 @@ int main() {
     cout << "Enter a number" << endl; 
     cin >> x;
 
+    if(x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+            } // because if x is -ve it is not a palindrome and if there is 0 in the end there should be a zero in the beginn.
+    
+    int revertedNumber = 0;
+    while(x > revertedNumber) {
+        revertedNumber = revertedNumber * 10 + x % 10;
+        x /= 10;
+        }
+    return x == revertedNumber || x == revertedNumber/10;
+
+    
     
 }
